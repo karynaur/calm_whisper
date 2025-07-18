@@ -67,10 +67,6 @@ def analyze_hallucination_rate(
                     input_features,
                     forced_decoder_ids=None,       
                     suppress_tokens=[],
-                    # logprob_threshold=  -0.5,
-                    # no_speech_threshold = 0.2,
-                    # temperature=0.0,
-                    # output_hidden_states=True,
                 )
 
             transcriptions = processor.batch_decode(
